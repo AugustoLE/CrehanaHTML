@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto HTML</title>
+    <link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <div class="hero">
+		<nav>
+			<h2 class="logo">Curso <span>HTML</span></h2>
+			<ul>
+				<li><a href="#">Principio</a></li>
+				<li><a href="#">Sobre Mí</a></li>
+				<li><a href="#">Portafolio</a></li>
+				<li><a href="#">Contactame</a></li>
+			</ul>
+			<a href="#" class="btn">Cyrlom Technology</a>
+		</nav>
+
+		<div class="content">
+			<h4>Hola, mi nombre es</h4>
+			<h1>Augusto <span>Enciso</span></h1>
+			<h3>Soy Consultor TI.</h3>
+		</div>
+	</div>
+
+	<!-- Sobre mí -->
+	<section class="about">
+		<div class="main">
+			<img src="img/main-img.jpg">
+			<div class="about-text">
+				<h2>Sobre mí</h2>
+				<h5>Consultor <span>TI</span></h5>
+				<p>Mi primera experiencia profesional fue realizada en la compañía Belatec como Consultor TI. No solamente destacando y aprendiendo en una sola área, teniendo la oportunidad de adquirir experiencia en el manejo funcional en un sistema ERP diseñado desde cero. Adquirí los conocimientos funcionales como Testing del sistema complementando mis conocimientos para una mejor conversación y solución con los clientes de la empresa Derteano & Stucker.</p>
+				<button type="button" onclick="window.location.href='https://linkedin.com/in/cesar-augusto-licona-enciso-3b0782213';" target="_blank">Ver perfil Linkedin</button>
+			</div>
+		</div>
+	</section>
+
+	<!-- Proyectos -->
+	<div class="service">
+		<div class="title">
+			<h2>Mis proyectos</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fa-brands fa-css3"></i>
+				<h5>Proyecto CSS</h5>
+				<div class="pra">
+					<p>Proyecto CSS realizado por el Curso: Css desde Cero en Crehana.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://github.com/AugustoLE/CrehanaCSS" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="fa-brands fa-js"></i>
+				<h5>Api Javascript</h5>
+				<div class="pra">
+					<p>Proyecto Api Javascript por el Curso: Javascript: Integración de APIs en Crehana.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://github.com/AugustoLE/ApiJavascript-crehana" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Calculadora de IVA</h5>
+				<div class="pra">
+					<p>Proyecto Javascript por el Curso: Introducción a Javascript en Crehana.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://github.com/AugustoLE/calIVA" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Futuro contenido 27/03/22-->
+	<!-- <div class="habilidades">
+		<p>Lengaujes que utilizo:</p>
+		<a class="button-two" href="#">Continuar</a>
+	</div> -->
+
+	<!-- Formulario -->
+	<div class="contact-form">
+		<p>¡Se parte de Cyrlom Technology!</p>
+		<h5>Hola ¿Viste mis protectos, y te gustaron? ¿Te gustaría recibir una notificación cada vez que suba un nuevo proyecto? Entonces, te invito a suscribirte a este contenido, al que siempre serás bienvenido.
+		<span>Déja tus datos aquí, y no te perderás ninguna novedad</span></h5>
+		<br>
+
+		<form action="" method="post">
+
+			<table>
+				<tr>
+					<td>
+						<h6 for="Nombre">Nombre</h6>
+    					<input type="text" id="Nombre" name="Nombre"/>
+					</td>
+					<td>
+						<h6 for="Nombre">Apellido</h6>
+						<input type="text" id="Apellido" name="Apellido"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<h6 for="Nombre">Correo</h6>
+						<input class="correo" type="text" id="Email" name="Email"/>
+					</td>
+				</tr>
+			</table>
+
+			<h6>¿Dónde viste nuestro contenido primero?</h6>
+				<div style="text-align:center; margin: 20px;">	
+					<select name="redes sociales" id="redes sociales">
+						<option value="Facebook">Facebook</option>
+						<option value="Instagram">Instagram</option>
+						<option value="YouTube">YouTube</option>
+						<option value="WhatsApp">WhatsApp</option>
+					</select>
+				</div>
+
+			<h6>¿Con qué frecuencia te gustaría recibir notificaciones?</h6>
+			<div style="text-align:center; margin: 20px;">
+				<input type="radio" name="selection" id="semanal" value="semanal">
+				<label style="color: white" for="semanal">semanal</label>
+				<input type="radio" name="selection" id="quincenal" value="quincenal">
+				<label style="color: white" for="quincenal">quincenal</label>
+				<input type="radio" name="selection" id="mensual" value="mensual">
+				<label style="color: white" for="mensual">mensual</label>
+			</div>	
+
+			<h6>Si ya leíste algunos de mis textos, me gustaría conocer tu opinión sobre ellos</h6>
+			<div style="text-align:center; margin: 20px;">
+				<textarea name="name" rows="10" cols="50"></textarea>
+			</div>
+		
+		</form>
+
+		<button type="submit" name="Me suscribo">Me suscribo</button>
+
+	</div>
+
+
+
+	<footer>
+		<p>Cyrlom Technology</p>
+		<p>Para mayor información, no te olvides seguirnos en nuestras redes sociales:</p>
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-dribbble"></i></a>
+		</div>
+		<p class="end">CopyRight By Cyrlom Technology</p>
+	</footer>
+
+</body>
+</html>
